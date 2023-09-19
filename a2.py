@@ -40,6 +40,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
             return None
 
         # 4) if the current thing in the pattern is an _
+        if i in pind== "_"
 
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
