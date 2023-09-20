@@ -36,11 +36,16 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         #   and come back to this one afterwards
 
         # 3) if we reached the end of the source but not the pattern
-        if pind < len(pattern) and sind == len(source):
+        elif pind < len(pattern) and sind == len(source):
             return None
 
         # 4) if the current thing in the pattern is an _
-        if i in pind== "_"
+        elif pattern[pind] == "_":
+            result += [source[sind]]
+            pind += 1
+            sind += 1
+
+
 
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
